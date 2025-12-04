@@ -1,1 +1,2 @@
-# -GDV-IB-Gu-nchez_Torres_Aar-n---Entrega-4-Videojuego-Monta-un-PC-
+# -GDV-IB-Guanchez_Torres_Aar-n---Entrega-4-Videojuego-Monta-un-PC-
+Si quieres, puedes utilizar el ejemplo disponible en UBUVirtual "Publicar nuestro README.md en GitHub.pdf" al final del .pdf en "Ejemplo de README.md" ves que tienes texto desde "# Monta un PC – Videojuego Educativo [...]"  hasta "## Licencia [...]". Copia y pega todo el ejemplo en la "Descripción" de tu README.md, y/o adáptalo según tus preferencias
