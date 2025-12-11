@@ -1,0 +1,206 @@
+{
+	"name": "Hoja de eventos 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite3",
+					"sid": 652553112188842,
+					"parameters": {
+						"object": "Lugar_Board"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "Sprite3",
+					"sid": 468183596388979,
+					"parameters": {
+						"object": "Lugar_Board",
+						"image-point-optional": "0"
+					}
+				},
+				{
+					"id": "drop",
+					"objectClass": "Sprite3",
+					"sid": 828675968898492,
+					"behaviorType": "ArrastrarYSoltar"
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite3",
+					"sid": 762645076862501,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
+				}
+			],
+			"sid": 945242782343989
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite6",
+					"sid": 464681165216191,
+					"parameters": {
+						"object": "lugarfuente"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "drop",
+					"objectClass": "Sprite6",
+					"sid": 233305262108114,
+					"behaviorType": "ArrastrarYSoltar"
+				},
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "Sprite6",
+					"sid": 440288837731874,
+					"parameters": {
+						"object": "lugarfuente",
+						"image-point-optional": "0"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite6",
+					"sid": 447815841691758,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
+				}
+			],
+			"sid": 535692053666790
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 360427510647669,
+					"parameters": {
+						"object": "lugar_cpu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "Sprite",
+					"sid": 403014970851709,
+					"parameters": {
+						"object": "lugar_cpu",
+						"image-point-optional": "0"
+					}
+				},
+				{
+					"id": "drop",
+					"objectClass": "Sprite",
+					"sid": 161819485055910,
+					"behaviorType": "ArrastrarYSoltar"
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite",
+					"sid": 585554478394936,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
+				}
+			],
+			"sid": 620250416531461
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 110533183482191,
+					"parameters": {
+						"object": "lugarfan"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "Sprite4",
+					"sid": 212867190223089,
+					"parameters": {
+						"object": "lugarfan",
+						"image-point-optional": "0"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite4",
+					"sid": 319963387261315,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "drop",
+					"objectClass": "Sprite4",
+					"sid": 141540724816459,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"sid": 228960857481172
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite5",
+					"sid": 784652446481594,
+					"parameters": {
+						"object": "lugar_GPU"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "Sprite5",
+					"sid": 784371459107986,
+					"parameters": {
+						"object": "lugar_GPU",
+						"image-point-optional": "0"
+					}
+				},
+				{
+					"id": "drop",
+					"objectClass": "Sprite5",
+					"sid": 279274775145974,
+					"behaviorType": "ArrastrarYSoltar"
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite5",
+					"sid": 738902689158951,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
+				}
+			],
+			"sid": 149741512389732
+		}
+	],
+	"sid": 583119992649123
+}
