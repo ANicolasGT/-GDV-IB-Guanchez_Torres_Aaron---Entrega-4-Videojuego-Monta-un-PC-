@@ -200,6 +200,226 @@
 				}
 			],
 			"sid": 149741512389732
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drag-start",
+					"objectClass": "Sprite",
+					"sid": 619411377530211,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "Sprite",
+					"sid": 465170732071688,
+					"parameters": {
+						"opacity": "40"
+					}
+				}
+			],
+			"sid": 123118351252754
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drop",
+					"objectClass": "Sprite",
+					"sid": 113519362590238,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "Sprite",
+					"sid": 564067018588985,
+					"parameters": {
+						"opacity": "100"
+					}
+				}
+			],
+			"sid": 945537626821211
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drag-start",
+					"objectClass": "Sprite3",
+					"sid": 864890976183888,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "Sprite3",
+					"sid": 602697846203034,
+					"parameters": {
+						"opacity": "40"
+					}
+				}
+			],
+			"sid": 944241529269780
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drop",
+					"objectClass": "Sprite3",
+					"sid": 262087685241679,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "Sprite3",
+					"sid": 828299839793231,
+					"parameters": {
+						"opacity": "100"
+					}
+				}
+			],
+			"sid": 603114042589300
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drag-start",
+					"objectClass": "Sprite4",
+					"sid": 949938385018201,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "Sprite4",
+					"sid": 812365278346190,
+					"parameters": {
+						"opacity": "40"
+					}
+				}
+			],
+			"sid": 326820983675630
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drop",
+					"objectClass": "Sprite4",
+					"sid": 776395144763083,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "Sprite4",
+					"sid": 408692539766427,
+					"parameters": {
+						"opacity": "100"
+					}
+				}
+			],
+			"sid": 478131704133539
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drag-start",
+					"objectClass": "Sprite5",
+					"sid": 545251398075101,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "Sprite5",
+					"sid": 514362269353082,
+					"parameters": {
+						"opacity": "40"
+					}
+				}
+			],
+			"sid": 461944429248995
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drop",
+					"objectClass": "Sprite5",
+					"sid": 567001515048864,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "Sprite5",
+					"sid": 907200522541054,
+					"parameters": {
+						"opacity": "100"
+					}
+				}
+			],
+			"sid": 176168524319506
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drag-start",
+					"objectClass": "Sprite6",
+					"sid": 389674974898139,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "Sprite6",
+					"sid": 731506571267142,
+					"parameters": {
+						"opacity": "40"
+					}
+				}
+			],
+			"sid": 521252084391951
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drop",
+					"objectClass": "Sprite6",
+					"sid": 953484089317954,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "Sprite6",
+					"sid": 318616521739479,
+					"parameters": {
+						"opacity": "100"
+					}
+				}
+			],
+			"sid": 371019739873839
 		}
 	],
 	"sid": 583119992649123
